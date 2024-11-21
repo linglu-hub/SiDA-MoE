@@ -1,5 +1,7 @@
 # MOE
 
+Another fork from original
+
 ### Collecting Activations for large models
 
 1. Run `python main.py --model=xxx --sharding`. The script will load the pretrained weight from HF to our customized model and save the weight in a sharded format at ./result/[DATABASE]/[MODEL]/ShardedCkpt
